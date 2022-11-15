@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(128, 155, 112);
+  background-image: url('backgroundImg.jpg');
+  background-size: cover;
+}
+
+#color-palette {
+  text-align: center;
+}
+
+.color {
+  border-radius: 10px;
+}
+
+#generate-board {
+  background-color: rgb(39, 39, 85);
+  color: rgb(0, 255, 42);
+}
+
+h1 {
+  text-align: center;
+  font-family: Chakra Petch, sans-serif;
+  color: rgb(10, 10, 10);
+  text-shadow: 1px 2px rgb(211, 211, 230);
+}
+
+#button-container {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#board-size {
+  background-color: rgb(39, 39, 85);
+  color: rgb(27, 230, 37);
+}
+
+#clear-board {
+  background-color: rgb(39, 39, 85);
+  color: rgb(4, 245, 4);
+  font-family: Chakra Petch, sans-serif;
+}
+
+#button-random-color {
+  background-color: rgb(39, 39, 85);
+  font-family: Chakra Petch, sans-serif;
+  color: rgb(4, 245, 4);
+}
+
+#pixel-board {
+  text-align: center;
+  line-height: 0;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  border: solid black 1px;
+  display: inline-block;
+  background-color: white;
+}
